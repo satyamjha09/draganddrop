@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 style="text-align: center">Arrange Images by drag and drop</h1>
+    <div class="flex" id="parent">
+      <div draggable="true" class="image" >Image 1</div>
+      <div draggable="true" class="image" >Image 2</div>
+      <div draggable="true" class="image" >Image 3</div>
+      <div draggable="true" class="image" >Image 4</div>
+      <div draggable="true" class="image" >Image 5</div>
+      <div draggable="true" class="image" >Image 6</div>
+    </div>
 
-    <div id="first" ondragover="allowDrag(event)" ondrop="drop(event)"></div>
-    <img src="https://m.media-amazon.com/images/I/618WefYiyWL._AC_UF1000,1000_QL80_.jpg" draggable="true" ondragstart="drag(event)" id="testing" alt="" >
-
-    
-    
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
